@@ -1,6 +1,8 @@
 //Start coding here
 const greeting = "Hello ! 😁";
 
-greeting();
+function fnGreeting(str){
+    console.log(str + "\n" +"This line will be executed without any error.");
+}
 
-console.log("This line will be executed without any error.");
+fnGreeting(greeting);
